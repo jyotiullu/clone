@@ -1,0 +1,16 @@
+#nav-bar {
+    background-color: #fff;
+	border-color: rgba(231, 231, 231, 0);
+	box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    padding: auto 800px;
+    text-align: center;
+}
+
+.site-header .inner-site{
+    position: relative;
+}
+
+.nav-links {
+    padding: 900px;
+}
+
