@@ -14,6 +14,14 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { SocialComponent } from './social/social.component';
 import { ConfigService } from './config.service';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { LoginComponent } from './login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { BlogComponent } from './blog/blog.component';
+import { PostComponent } from './post/post.component';
+import { ArticleComponent } from './article/article.component';
 
 
 @NgModule({
@@ -27,12 +35,20 @@ import { ConfigService } from './config.service';
     ClientsComponent,
     FooterComponent,
     HeaderComponent,
-    SocialComponent
+    SocialComponent,
+    NotfoundComponent,
+    ContactusComponent,
+    LoginComponent,
+    BlogComponent,
+    PostComponent,
+    ArticleComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule,
+    HttpClientModule,    
   ],
   providers: [
     //importing service

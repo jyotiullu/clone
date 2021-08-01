@@ -68,5 +68,9 @@ export const configuration = {
     {target: '_blank', link:'http://google.com/+', title : 'Google', username: 'Canary QA', icon: 'google-plus'},
     {target: '_blank', link:'http://www.twitter.com/', title : 'Twitter', username: 'Canary QA', icon: 'twitter'},
     {target: '_blank', link:'http://www.instagram.com/', title : 'Instagram', username: 'Canary QA', icon: 'instagram'}
-  ]
+  ],
+  blog : {
+    tagline :'OUR BLOG',
+    title : 'Your feedback combined with our passion creates us'
+  }
 };
