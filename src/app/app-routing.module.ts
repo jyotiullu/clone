@@ -11,6 +11,7 @@ import { RouteguardService } from './routeguard.service';
 import { ContactusComponent } from './contactus/contactus.component';
 import { LoginComponent } from './login/login.component';
 import { BlogComponent } from './blog/blog.component';
+import { ArticleComponent } from './article/article.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/Home', pathMatch: 'full' },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'About', component: IntroComponent },
   { path: 'Gallery', component: GalleryComponent },
   { path: 'Blog', component: BlogComponent },
+  { path: 'Article/:id', component: ArticleComponent },
   { path: 'Services', component: ContentComponent, canActivate: [RouteguardService] },
   { path: 'Testimonials', component: TestimonialComponent },
   { path: 'Clients', component: ClientsComponent },

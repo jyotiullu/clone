@@ -71,6 +71,18 @@ export const configuration = {
   ],
   blog : {
     tagline :'OUR BLOG',
-    title : 'Your feedback combined with our passion creates us'
+    title : 'Where thoughts become things',
+    posts : [
+      {id : 1, title : 'First article', author : 'AD', image : 'gallery-image-1.jpg', publishdate: '2021-04-21T07:22Z', excert : 'This is the summaruy of article'},
+      {id : 2, title : 'Second article', author : 'JS', image : 'gallery-image-2.jpg', publishdate: '2021-04-21T07:22Z', excert : 'This is the summaruy of article'},
+      {id : 3, title : 'Third article', author : 'Allen', image : 'gallery-image-3.jpg', publishdate: '2021-04-21T07:22Z', excert : 'This is the summaruy of article'},
+      {id : 4, title : 'Fourth article', author : 'Lee Gu', image : 'gallery-image-4.jpg', publishdate: '2021-04-21T07:22Z', excert : 'This is the summaruy of article'},
+      {id : 5, title : 'Fifth article', author : 'Miriam G.', image : 'gallery-image-5.jpg', publishdate: '2021-04-21T07:22Z', excert : 'This is the summaruy of article'},
+      {id : 6, title : 'Sixth article', author : 'Admin MOD', image : 'gallery-image-6.jpg', publishdate: '2021-04-21T07:22Z', excert : 'This is the summaruy of article'},
+      {id : 7, title : 'Seventh article', author : 'ZM flex', image : 'gallery-image-1.jpg', publishdate: '2021-04-21T07:22Z', excert : 'This is the summaruy of article'},
+      {id : 8, title : 'Eighth article', author : 'Cery', image : 'gallery-image-2.jpg', publishdate: '2021-04-21T07:22Z', excert : 'This is the summaruy of article'},
+      {id : 9, title : 'Ninth article', author : 'Linda Borse', image : 'gallery-image-3.jpg', publishdate: '2021-04-21T07:22Z', excert : 'This is the summaruy of article'},
+      {id : 10, title : 'Tenth article', author : 'AD', image : 'gallery-image-4.jpg', publishdate: '2021-04-21T07:22Z', excert : 'This is the summaruy of article'},
+    ]
   }
 };

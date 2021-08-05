@@ -10,7 +10,8 @@ export class BlogComponent implements OnInit {
   
   blog = {
     tagline :'',
-    title : ''
+    title : '',
+    posts : this.getBlog().posts,
   }
 
   constructor(private config : ConfigService) { }
